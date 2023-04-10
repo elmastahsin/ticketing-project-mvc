@@ -2,14 +2,14 @@ package com.metu.service.impl;
 
 import com.metu.dto.RoleDTO;
 import com.metu.service.RoleService;
+import org.apache.catalina.Role;
 
 import java.util.List;
 
-public class RoleServiceImpl extends AbstractMapService<RoleDTO,Long> implements RoleService {
-
+public class RoleServiceImpl extends AbstractMapService<RoleDTO, Long> implements RoleService {
     @Override
     public RoleDTO save(RoleDTO role) {
-        return super.save(role.getId(),role);
+        return super.save(role.getId(), role);
     }
 
     @Override
