@@ -167,12 +167,14 @@
 
                                             <tbody>
 
-                                            <tr>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
+                                            <tr th:each="user: ${users}">
+                                                <td th:text="${user.firstName + ' ' + user.lastName}"></td>
+                                                <td th:text="${user.userName}"></td>
+                                                <td th:text="${user.gender.value}"></td>
+                                                <td th:text="${user.phone}"></td>
+                                                <td th:text="${user.role.description}"></td>
+
+
                                                 <td class="actions">
                                                     <a href="#">
                                                         <button type="button" class="btn btn-warning btn-sm">Update

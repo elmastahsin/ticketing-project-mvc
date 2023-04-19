@@ -7,8 +7,6 @@
     <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp service impl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/create.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +122,7 @@
       <workItem from="1680958004734" duration="573000" />
       <workItem from="1680958586853" duration="16000" />
       <workItem from="1681160460650" duration="1200000" />
-      <workItem from="1681944216995" duration="2875000" />
+      <workItem from="1681944216995" duration="3918000" />
     </task>
     <task id="LOCAL-00001" summary="TicketingProjectMvcApp created">
       <created>1680659464988</created>
@@ -217,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681946163629</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="TicketingProjectMvcApp service impl">
+      <created>1681947145035</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681947145035</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
