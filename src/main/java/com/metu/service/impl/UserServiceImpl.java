@@ -3,9 +3,10 @@ package com.metu.service.impl;
 import com.metu.dto.UserDTO;
 import com.metu.entity.User;
 import com.metu.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class UserServiceImpl extends AbstractMapService<UserDTO, String> implements UserService {
     @Override
     public UserDTO save(UserDTO user) {
