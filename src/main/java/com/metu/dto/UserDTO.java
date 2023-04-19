@@ -1,6 +1,5 @@
 package com.metu.dto;
 
-import com.metu.entity.Role;
 import com.metu.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,10 +13,11 @@ public class UserDTO {
     private String firstName;
     private String lastName;
     private String userName;
-    private String password;
-    private String email;
+    private String passWord;
     private boolean enabled;
     private String phone;
     private RoleDTO role;
     private Gender gender;
+
+
 }

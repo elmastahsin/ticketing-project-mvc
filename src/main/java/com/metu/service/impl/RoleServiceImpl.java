@@ -2,10 +2,10 @@ package com.metu.service.impl;
 
 import com.metu.dto.RoleDTO;
 import com.metu.service.RoleService;
-import org.apache.catalina.Role;
-
+import org.springframework.stereotype.Service;
 import java.util.List;
 
+@Service // like @Component creates beans
 public class RoleServiceImpl extends AbstractMapService<RoleDTO, Long> implements RoleService {
     @Override
     public RoleDTO save(RoleDTO role) {
