@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp service impl">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,9 @@
         <option name="url" value="https://github.com/elmastahsin/ticketing-project-mvc.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -116,6 +119,8 @@
       <workItem from="1680941458904" duration="596000" />
       <workItem from="1680958004734" duration="573000" />
       <workItem from="1680958586853" duration="16000" />
+      <workItem from="1681160460650" duration="1200000" />
+      <workItem from="1681944216995" duration="394000" />
     </task>
     <task id="LOCAL-00001" summary="TicketingProjectMvcApp created">
       <created>1680659464988</created>
@@ -187,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681138807105</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TicketingProjectMvcApp service impl">
+      <created>1681138954884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681138954884</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TicketingProjectMvcApp created" />
     <MESSAGE value="TicketingProjectMvcApp updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp updated" />
+    <MESSAGE value="TicketingProjectMvcApp service impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp service impl" />
   </component>
 </project>
