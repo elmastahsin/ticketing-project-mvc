@@ -5,10 +5,7 @@ import com.metu.service.ProjectService;
 import com.metu.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/project")
@@ -36,10 +33,16 @@ public class ProjectController {
     }
 
     @PostMapping("/create")
-    public String insertProject(@ModelAttribute("project") ProjectDTO project) {
+    public String insertProject(@ModelAttribute("project") ProjectDTO project){
+
         projectService.save(project);
+
         return "redirect:/project/create";
     }
 
-
+    @GetMapping("/delete/{projectCode}")
+    public String deleteUser(@PathVariable("projectCode") String projectCode) {
+        projectService.deleteById(projectCode);
+        return "redirect:/project/create";
+    }
 }

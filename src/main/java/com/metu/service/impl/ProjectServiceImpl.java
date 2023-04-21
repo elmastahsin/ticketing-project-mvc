@@ -1,17 +1,22 @@
 package com.metu.service.impl;
 
 import com.metu.dto.ProjectDTO;
+import com.metu.enums.Status;
 import com.metu.service.ProjectService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ProjectServiceImpl extends AbstractMapService<ProjectDTO, String> implements ProjectService {
+public class ProjectServiceImpl extends AbstractMapService<ProjectDTO,String> implements ProjectService {
 
     @Override
     public ProjectDTO save(ProjectDTO project) {
-        return super.save(project.getProjectCode(), project);
+
+        if(project.getProjectStatus()==null)
+            project.setProjectStatus(Status.OPEN);
+
+        return super.save(project.getProjectCode(),project);
     }
 
     @Override
@@ -26,7 +31,7 @@ public class ProjectServiceImpl extends AbstractMapService<ProjectDTO, String> i
 
     @Override
     public void update(ProjectDTO object) {
-        super.update(object.getProjectCode(), object);
+        super.update(object.getProjectCode(),object);
     }
 
     @Override
