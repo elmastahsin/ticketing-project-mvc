@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp updated" />
+    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp project create page is implemented">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +83,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -119,6 +124,10 @@
       <workItem from="1680958586853" duration="16000" />
       <workItem from="1681160460650" duration="1200000" />
       <workItem from="1681944216995" duration="5108000" />
+      <workItem from="1681996146929" duration="600000" />
+      <workItem from="1682019976949" duration="593000" />
+      <workItem from="1682044144487" duration="6689000" />
+      <workItem from="1682104993755" duration="4027000" />
     </task>
     <task id="LOCAL-00001" summary="TicketingProjectMvcApp created">
       <created>1680659464988</created>
@@ -246,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681954471851</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="TicketingProjectMvcApp updated page is implemented">
+      <created>1682052671045</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682052671045</updated>
+    </task>
+    <task id="LOCAL-00020" summary="TicketingProjectMvcApp project create page is implemented">
+      <created>1682105577586</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682105577586</updated>
+    </task>
+    <task id="LOCAL-00021" summary="TicketingProjectMvcApp project create page is implemented">
+      <created>1682108150742</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682108150742</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +293,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="part3" />
                       </list>
                     </value>
                   </entry>
@@ -280,6 +310,8 @@
     <MESSAGE value="TicketingProjectMvcApp service impl" />
     <MESSAGE value="TicketingProjectMvcApp" />
     <MESSAGE value="TicketingProjectMvcApp updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp updated" />
+    <MESSAGE value="TicketingProjectMvcApp updated page is implemented" />
+    <MESSAGE value="TicketingProjectMvcApp project create page is implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp project create page is implemented" />
   </component>
 </project>
