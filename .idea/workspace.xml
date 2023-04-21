@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp updated page is implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/dto/ProjectDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" afterDir="false" />
+    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp project create page is implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/converter/UserDtoConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/CrudService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/AbstractMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/AbstractMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,7 +130,7 @@
       <workItem from="1681996146929" duration="600000" />
       <workItem from="1682019976949" duration="593000" />
       <workItem from="1682044144487" duration="6689000" />
-      <workItem from="1682104993755" duration="313000" />
+      <workItem from="1682104993755" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="TicketingProjectMvcApp created">
       <created>1680659464988</created>
@@ -272,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682052671045</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="TicketingProjectMvcApp project create page is implemented">
+      <created>1682105577586</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682105577586</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +307,7 @@
     <MESSAGE value="TicketingProjectMvcApp" />
     <MESSAGE value="TicketingProjectMvcApp updated" />
     <MESSAGE value="TicketingProjectMvcApp updated page is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp updated page is implemented" />
+    <MESSAGE value="TicketingProjectMvcApp project create page is implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp project create page is implemented" />
   </component>
 </project>
