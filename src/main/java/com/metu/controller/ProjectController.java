@@ -45,5 +45,4 @@ public class ProjectController {
         projectService.deleteById(projectCode);
         return "redirect:/project/create";
     }
-
 }
