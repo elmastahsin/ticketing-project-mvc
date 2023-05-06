@@ -7,6 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @Controller
 @RequestMapping("/project")
 public class ProjectController {
@@ -42,6 +44,8 @@ public class ProjectController {
 
     @GetMapping("/delete/{projectCode}")
     public String deleteUser(@PathVariable("projectCode") String projectCode) {
+
+
         projectService.deleteById(projectCode);
         return "redirect:/project/create";
     }
