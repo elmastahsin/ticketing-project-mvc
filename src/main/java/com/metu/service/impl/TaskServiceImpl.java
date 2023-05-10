@@ -5,34 +5,33 @@ import com.metu.service.TaskService;
 
 import java.util.List;
 
-public class TaskServiceImpl implements TaskService{
+public class TaskServiceImpl extends AbstractMapService<TaskDTO,Long> implements TaskService{
 
     @Override
-    public TaskDTO save(TaskDTO user) {
+    public TaskDTO save(TaskDTO task) {
         //save task
-
-       // return super.save(user.getUserName(),user);
-        return null;
+        return super.save(task.getId(),task);
 
     }
 
     @Override
-    public TaskDTO findById(Long username) {
-        return null;
+    public TaskDTO findById(Long id) {
+        return super.findById(id);
     }
 
     @Override
     public List<TaskDTO> findAll() {
-        return null;
+        return super.findAll();
     }
 
     @Override
-    public void deleteById(Long username) {
+    public void deleteById(Long id) {
+        super.deleteById(id);
 
     }
 
     @Override
-    public void update(TaskDTO object) {
-
+    public void update(TaskDTO task) {
+        super.update(task.getId(),task);
     }
 }
