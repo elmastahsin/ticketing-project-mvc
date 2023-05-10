@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp project create page is implemented">
+    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp part4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/CrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part3" />
+        <entry key="$PROJECT_DIR$" value="part4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +42,9 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9de67c04-91f9-4802-b46d-5cd61a39cb95" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
       <RepoCoordinatesHolder>
@@ -65,27 +76,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.metu.entity" />
@@ -126,6 +137,20 @@
       <workItem from="1682019976949" duration="593000" />
       <workItem from="1682044144487" duration="6689000" />
       <workItem from="1682104993755" duration="4027000" />
+      <workItem from="1682112701358" duration="751000" />
+      <workItem from="1682154648248" duration="1273000" />
+      <workItem from="1682247827116" duration="597000" />
+      <workItem from="1682327588552" duration="596000" />
+      <workItem from="1683054509786" duration="42000" />
+      <workItem from="1683054586121" duration="8000" />
+      <workItem from="1683054606602" duration="425000" />
+      <workItem from="1683192191731" duration="1337000" />
+      <workItem from="1683330382155" duration="211000" />
+      <workItem from="1683380637241" duration="113000" />
+      <workItem from="1683406482208" duration="682000" />
+      <workItem from="1683467465480" duration="243000" />
+      <workItem from="1683667290451" duration="4763000" />
+      <workItem from="1683702602911" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="TicketingProjectMvcApp created">
       <created>1680659464988</created>
@@ -274,7 +299,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682108150742</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TicketingProjectMvcApp project create page is implemented">
+      <created>1682112806453</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682112806453</updated>
+    </task>
+    <task id="LOCAL-00023" summary="TicketingProjectMvcApp project create page is implemented">
+      <created>1683330395718</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683330395718</updated>
+    </task>
+    <task id="LOCAL-00024" summary="TicketingProjectMvcApp project create page is implemented">
+      <created>1683406564802</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683406564802</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +337,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="part3" />
+                        <option value="part4" />
                       </list>
                     </value>
                   </entry>
