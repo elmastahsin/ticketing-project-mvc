@@ -1,6 +1,7 @@
 package com.metu.controller;
 
 
+import com.metu.dto.TaskDTO;
 import com.metu.service.ProjectService;
 import com.metu.service.TaskService;
 import com.metu.service.UserService;
@@ -26,6 +27,7 @@ public class TaskController {
 
     @GetMapping("/create")
     public String createProject(Model model) {
+        model.addAttribute("task", new TaskDTO());
         model.addAttribute("projects", projectService.findAll());
         model.addAttribute("employees", userService.findEmployees());
         model.addAttribute("tasks", taskService.findAll());

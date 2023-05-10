@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp project create and update implemented">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" afterDir="false" />
+    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp part5">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683705646633</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="TicketingProjectMvcApp part5">
+      <created>1683710625541</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683710625541</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +374,8 @@
     <MESSAGE value="TicketingProjectMvcApp project create page is implemented" />
     <MESSAGE value="TicketingProjectMvcApp project create and update implemeneted" />
     <MESSAGE value="TicketingProjectMvcApp project create and update implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp project create and update implemented" />
+    <MESSAGE value="TicketingProjectMvcApp par4 completed" />
+    <MESSAGE value="TicketingProjectMvcApp part5" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp part5" />
   </component>
 </project>

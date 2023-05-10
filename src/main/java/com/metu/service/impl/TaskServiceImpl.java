@@ -2,9 +2,10 @@ package com.metu.service.impl;
 
 import com.metu.dto.TaskDTO;
 import com.metu.service.TaskService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class TaskServiceImpl extends AbstractMapService<TaskDTO,Long> implements TaskService{
 
     @Override
