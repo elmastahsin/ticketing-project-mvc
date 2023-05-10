@@ -9,7 +9,7 @@ import java.util.List;
 public class RoleServiceImpl extends AbstractMapService<RoleDTO, Long> implements RoleService {
     @Override
     public RoleDTO save(RoleDTO role) {
-        return super.save(role.getId(), role);
+        return super.save(role.getId(),role);
     }
 
     @Override
@@ -29,7 +29,7 @@ public class RoleServiceImpl extends AbstractMapService<RoleDTO, Long> implement
 
     @Override
     public void update(RoleDTO object) {
-        super.update(object.getId(),object);
-
+        super.update(object.getId(), object);
     }
+
 }

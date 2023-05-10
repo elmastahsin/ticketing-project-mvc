@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp project create and update implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/dto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" afterDir="false" />
+    <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp part5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/dto/ProjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manager/project-status.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manager/project-status.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/pending-tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/pending-tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/status-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/status-update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part4" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -334,7 +346,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683705646633</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="TicketingProjectMvcApp part5">
+      <created>1683710625541</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683710625541</updated>
+    </task>
+    <task id="LOCAL-00028" summary="TicketingProjectMvcApp part5">
+      <created>1683710887198</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1683710887198</updated>
+    </task>
+    <task id="LOCAL-00029" summary="TicketingProjectMvcApp part5">
+      <created>1683716200603</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683716200603</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +405,8 @@
     <MESSAGE value="TicketingProjectMvcApp project create page is implemented" />
     <MESSAGE value="TicketingProjectMvcApp project create and update implemeneted" />
     <MESSAGE value="TicketingProjectMvcApp project create and update implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp project create and update implemented" />
+    <MESSAGE value="TicketingProjectMvcApp par4 completed" />
+    <MESSAGE value="TicketingProjectMvcApp part5" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicketingProjectMvcApp part5" />
   </component>
 </project>
