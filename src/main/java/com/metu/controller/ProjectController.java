@@ -7,10 +7,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
 @Controller
 @RequestMapping("/project")
 public class ProjectController {
-
 
     private final UserService userService;
     private final ProjectService projectService;
@@ -25,7 +25,7 @@ public class ProjectController {
 
         model.addAttribute("project", new ProjectDTO());
 
-        model.addAttribute("managers", userService.findAll());
+        model.addAttribute("managers", userService.findManagers());
 
         model.addAttribute("projects", projectService.findAll());
 
@@ -33,7 +33,8 @@ public class ProjectController {
     }
 
     @PostMapping("/create")
-    public String insertProject(@ModelAttribute("project") ProjectDTO project){
+    public String insertProject(@ModelAttribute("project") ProjectDTO project) {
+
 
         projectService.save(project);
 
@@ -41,8 +42,37 @@ public class ProjectController {
     }
 
     @GetMapping("/delete/{projectCode}")
-    public String deleteUser(@PathVariable("projectCode") String projectCode) {
+    public String deleteProject(@PathVariable("projectCode") String projectCode) {
+
         projectService.deleteById(projectCode);
+
+        return "redirect:/project/create";
+
+    }
+
+    @GetMapping("/complete/{projectCode}")
+    public String completeProject(@PathVariable("projectCode") String projectCode){
+
+        projectService.complete(projectService.findById(projectCode));
+
+        return "redirect:/project/create";
+    }
+
+    @GetMapping("/update/{projectCode}")
+    public String editProject(@PathVariable("projectCode") String projectCode, Model model){
+
+        model.addAttribute("project",projectService.findById(projectCode));
+        model.addAttribute("managers",userService.findManagers());
+        model.addAttribute("projects",projectService.findAll());
+
+        return "/project/update";
+    }
+
+    @PostMapping("/update")
+    public String updateProject(@ModelAttribute("project") ProjectDTO project){
+
+        projectService.update(project);
+
         return "redirect:/project/create";
     }
 
