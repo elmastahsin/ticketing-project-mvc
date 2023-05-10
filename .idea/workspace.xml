@@ -6,24 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a9d395a2-ae14-4db1-9abd-e25168137083" name="Changes" comment="TicketingProjectMvcApp part5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/dto/ProjectDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/dto/UserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/metu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/left-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manager/project-status.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manager/project-status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/pending-tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/pending-tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/status-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/status-update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/task/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/task/update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +369,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="part4" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
